@@ -1,0 +1,20 @@
+body {
+    margin: 6rem 19rem;
+    padding: 10px;
+    
+}
+.wrapper {
+    width: 362px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
