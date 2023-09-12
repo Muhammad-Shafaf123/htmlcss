@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    margin: 2rem 17rem;
+}
+.box {
+  width: 10rem;
+  position: absolute;
+  display: flex;
+  border: 1px solid;
+  background: #fff;
+}
+
+.box:nth-child(1) {
+  left: 0;
+  top: 0;
+  width: 20rem;
+  height: 12rem;
+  z-index: 1;
+}
+
+.box:nth-child(2) {
+  left: 210px;
+  top: 8rem;
+  width: 15rem;
+  height: 11rem;
+  z-index: 2;
+}
+
+.box:nth-child(3) {
+  left: 0;
+  top: 18rem;
+  width: 42rem;
+  height: 10rem;
+  z-index: 3;
+}
+
+.box:nth-child(4) {
+  left: 613px;
+  top: 0;
+  height: 26rem;
+  z-index: 4;
+}
